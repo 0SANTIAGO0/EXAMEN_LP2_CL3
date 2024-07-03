@@ -1,0 +1,33 @@
+package Test;
+
+import java.util.List;
+
+import Dao.ClassProducto;
+import Modelos.TblProductocl3;
+
+public class TestProducto {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		TblProductocl3 prod = new TblProductocl3();
+		ClassProducto crud = new ClassProducto();
+	
+		List<TblProductocl3> listadoproductos = crud.ListadoProducto();
+		
+		for(TblProductocl3 listar:listadoproductos) {
+	
+		System.out.println(
+				"codigo :"+listar.getIdproductocl3()+"\n"+
+				"nombre :"+listar.getNombrecl3()+"\n"+
+				"precioVenta :"+listar.getPrecioventacl3()+"\n"+
+				"precioCompra :"+listar.getPreciocompcl3()+"\n"+
+				"Estado :"+listar.getEstadocl3() +"\n"+
+				"Descripcion :"+listar.getDescripcl3()+"\n"+
+				"--------------------------------------------"+
+				"\n"
+				);
+		}
+	}
+
+}

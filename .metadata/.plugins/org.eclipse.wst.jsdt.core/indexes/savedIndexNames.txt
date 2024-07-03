@@ -1,0 +1,8 @@
+INDEX VERSION 1.4+C:\Users\Specialized Computer\Desktop\LP2_CL2_Gutierrez_Riveros\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+3711849066.index
+3388295390.index
+164496723.index
+3779459044.index
+2060087491.index
+1324113755.index
+2589827189.index

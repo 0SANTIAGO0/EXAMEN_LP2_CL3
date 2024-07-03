@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="Interfaces.InterfaceUsusario"/>
+    <fullyQualifiedTypeName name="javax.persistence.TypedQuery"/>
+    <fullyQualifiedTypeName name="javax.persistence.NoResultException"/>
+    <fullyQualifiedTypeName name="javax.persistence.EntityManagerFactory"/>
+    <fullyQualifiedTypeName name="javax.persistence.EntityManager"/>
+    <fullyQualifiedTypeName name="javax.persistence.Persistence"/>
+    <fullyQualifiedTypeName name="Interfaces.InterfaceProducto"/>
+    <fullyQualifiedTypeName name="org.eclipse.persistence.internal.oxm.schema.model.List"/>
+    <fullyQualifiedTypeName name="Modelos.TblUsuariocl2"/>
+    <fullyQualifiedTypeName name="Dao.ClassUsuario"/>
+    <fullyQualifiedTypeName name="Modelos.TblProductocl2"/>
+    <fullyQualifiedTypeName name="Dao.ClassProducto"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+</qualifiedTypeNameHistroy>

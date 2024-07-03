@@ -1,0 +1,28 @@
+package Test;
+
+public class TestProducto {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		TblProductocl2 prod = new TblProductocl2();
+		ClassProductoCL2Imp crud = new ClassProductoCL2Imp();
+	
+		List<TblProductocl2> listadoproductos = crud.ListadoProducto();
+		
+		for(TblProductocl2 listar:listadoproductos) {
+	
+		System.out.println(
+				"codigo :"+listar.getIdproductoCL2()+"\n"+
+				"nombre :"+listar.getNombreCL2()+"\n"+
+				"precioVenta :"+listar.getPrecioventaCL2()+"\n"+
+				"precioCompra :"+listar.getPreciocompCL2()+"\n"+
+				"Estado :"+listar.getEstadoCL2() +"\n"+
+				"Descripcion :"+listar.getDescripCL2()+"\n"+
+				"--------------------------------------------"+
+				"\n"
+				);
+		}
+	}
+
+}
